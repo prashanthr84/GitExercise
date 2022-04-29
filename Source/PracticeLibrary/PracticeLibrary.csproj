@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>C:\Local\src\git-practice\GitPracticeSolution\Output\Bin\</OutputPath>
+    <OutputPath>..\..\Output\Bin\</OutputPath>
   </PropertyGroup>
 
 </Project>
