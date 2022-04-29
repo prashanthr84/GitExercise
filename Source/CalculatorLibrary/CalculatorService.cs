@@ -39,5 +39,14 @@ namespace CalculatorLibrary
         public int Divide(int num1, int num2) {
             return divisionPerformer.Perform(num1, num2);
         }
+
+        public int Multiply(int num1, int num2)
+        {
+            return multiplicationPerformer.Perform(num1, num2);
+        }
+
+        public int Subtract(int num1, int num2) {
+            return subtractionPerformer.Perform(num1, num2);
+        }
     }
 }
